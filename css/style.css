@@ -67,3 +67,14 @@ ul {
 header {
   /*height: 100vh;*/
 }
+
+img {
+  height: 300px;
+  border-radius: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
