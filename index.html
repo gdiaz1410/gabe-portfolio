@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Gabriel Diaz</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Raleway" rel="stylesheet">
@@ -17,16 +18,16 @@
         <div class="row">
           <ul class="mainNav">
             <!-- LI NOT SHOWING IN ORDER -->
-            <li><a href="#">Gabe</a></li>
+            <li><a href="#header">Gabe</a></li>
             <li><a href="https://drive.google.com/file/d/0B7yVJ7Vp6wlPY2pnRWh4ZnAtaUE/view?usp=sharing" target="_blank">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">My Work</a></li>
             <!-- add hamburger for mobile -->
           </ul>
         </div>
       </nav>
 
-      <div class="row heroSection">
+      <div class="row heroSection" id="header">
         <img src="images/Gabe.jpg" alt="Gabe">
         <h1>Gabriel Diaz</h1>
         <ul class="subheader">
@@ -40,7 +41,7 @@
     </header>
 
     <!-- PROJECTS -->
-    <section class="projectSection">
+    <section class="projectSection" id="projects">
       <div class="row">
         <h2>Projects</h2>
       </div>
@@ -81,7 +82,7 @@
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer id="contact">
       <div class="row">
         <h2>Get In Touch</h2>
       </div>
@@ -95,6 +96,10 @@
       </div>
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
     <script src="https://use.fontawesome.com/c330aef9f8.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
