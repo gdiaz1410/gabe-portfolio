@@ -6,24 +6,26 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Raleway" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Raleway" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Oxygen+Mono|Raleway|Roboto+Condensed|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
 
   </head>
   <body>
 
     <!-- HEADER -->
     <header>
-      <nav>
+      <nav class="flexNav">
         <div class="row">
+          <a href="#" class="toggleNav">☰</a>
           <ul class="mainNav">
-            <!-- LI NOT SHOWING IN ORDER -->
-            <li><a href="#header">Gabe</a></li>
-            <li><a href="https://drive.google.com/file/d/0B7yVJ7Vp6wlPY2pnRWh4ZnAtaUE/view?usp=sharing" target="_blank">Resume</a></li>
+            <li id="brand"><a href="#header">Gabe</a></li>
+            <li><a href="#projects" target="_blank">My Work</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#projects">My Work</a></li>
-            <!-- add hamburger for mobile -->
+            <li><a href="https://drive.google.com/file/d/0B7yVJ7Vp6wlPY2pnRWh4ZnAtaUE/view?usp=sharing">Resume</a></li>
           </ul>
+          <!-- <a href="#" class="toggleNav">☰</a> -->
         </div>
       </nav>
 
@@ -45,8 +47,8 @@
       <div class="row">
         <h2>Projects</h2>
       </div>
-      <div class="row">
-        <div class="col span-1-of-3">
+      <div class="row projectFlex">
+        <div class="project col span-1-of-3">
           <img src="images/beer-traveler.jpg" alt="Beer Traveler">
           <h3>Beer Traveler</h3>
           <div class="projectDescription">
@@ -56,18 +58,18 @@
             <a class="codeLink" href="https://github.com/connorzg/beer-traveler" target="_blank">View Code</a>
           </div>
         </div>
-        <div class="col span-1-of-3">
+        <div class="project col span-1-of-3">
           <img src="images/hlf-site.png" alt="HLF">
           <h3>Higher Level Fitness</h3>
           <div class="projectDescription">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            <p>HLF is a website I made with HTML/CSS and Jquery. It was made for my friends who run a fitness bootcamp and I had been wanting to make them a website for a while.</p>
           </div>
           <div class="projectLinks">
             <a class="siteLink" href="https://gdiaz1410.github.io/hlf/" target="_blank">Visit Site</a>
             <a class="codeLink" href="https://github.com/gdiaz1410/hlf" target="_blank">View code</a>
           </div>
         </div>
-        <div class="col span-1-of-3">
+        <div class="project col span-1-of-3">
           <img src="images/water.png" alt="H2Know">
           <h3>H2Know</h3>
           <div class="projectDescription">
@@ -97,9 +99,11 @@
     </footer>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
     <script src="https://use.fontawesome.com/c330aef9f8.js"></script>
     <script src="js/script.js" charset="utf-8"></script>
+
   </body>
 </html>

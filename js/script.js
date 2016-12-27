@@ -2,6 +2,13 @@ $(document).ready(function() {
 
 
 
+  // nav burger button
+  $(function() {
+      $('.toggleNav').on('click',function() {
+      $('.mainNav').toggleClass('open');
+    });
+  });
+
 
   // nav click scroll to section
   $(function() {
@@ -18,12 +25,18 @@ $(document).ready(function() {
     }
   });
 
+  $('.toggleNav').click(function() {
+    var nav = $('.mainNav');
 
+    nav.slideToggle(200);
+  })
+  });
 
-
-});
-
-
+  $('.projectFlex').waypoint(function(direction) {
+    $('.projectFlex').addClass('animated fadeIn');
+  }, {
+    offset: '90%'
+  });
 
 
 
