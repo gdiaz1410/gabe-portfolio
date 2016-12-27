@@ -7,6 +7,8 @@
 html,
 body {
   font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .row {
@@ -22,12 +24,9 @@ section {
 
 .mainNav {
   list-style: none;
-  float: right;
-  margin-top: 30px;
-}
-
-ul {
+  margin-top: 35px;
   width: 100%;
+  /*float: right;*/
 }
 
 .mainNav li {
@@ -69,12 +68,39 @@ header {
 }
 
 img {
-  height: 300px;
-  border-radius: 40%;
+  height: 250px;
+  border-radius: 100%;
   display: block;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 h1 {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 310%;
   text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  font-size: 125%;
+  text-align: center;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.subheader li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+  border-left: 1px solid #000;
+}
+
+.subheader li:first-child {
+  border-left: 0;
+}
+
+.description {
+  line-height: 150%;
 }
