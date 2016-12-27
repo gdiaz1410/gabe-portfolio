@@ -104,3 +104,57 @@ h1 {
 .description {
   line-height: 150%;
 }
+
+
+/*PROJECTS*/
+
+.col {
+  padding: 1%;
+}
+
+.col img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 250%;
+}
+
+h3 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.projectLinks {
+  margin-top: 25px;
+  text-align: center;
+  bottom: auto;
+}
+
+.projectLinks a {
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 8px;
+  top: 150%;
+}
+
+.projectLinks a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.siteLink {
+
+}
+
+.codeLink {
+  margin-left: 15px;
+}
