@@ -147,7 +147,8 @@ h3 {
 }
 
 .projectLinks a:hover {
-  background-color: #000;
+  background-color: #636a77;
+  border: 1px solid #d80f0f;
   color: #fff;
 }
 
@@ -157,4 +158,40 @@ h3 {
 
 .codeLink {
   margin-left: 15px;
+}
+
+
+/*FOOTER*/
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 150px;
+  font-size: 300%;
+}
+
+.socialLinks li {
+  display: inline-block;
+
+}
+
+.socialLinks i {
+  color: #000;
+}
+
+.socialLinks .fa-linkedin-square {
+  color: #0077B5;
+}
+
+.socialLinks .fa-github {
+  color: #6e5494;
+}
+
+.socialLinks .fa-twitter {
+  color: #00aced;
+}
+
+.socialLinks .fa-envelope-o {
+  color: #dd4b39;
 }
