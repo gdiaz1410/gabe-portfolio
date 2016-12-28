@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-img
+
 html,
 body {
   font-size: 20px;
   letter-spacing: 1px;
-  font-family: 'Raleway', sans-serif;
-  background-color: #f9f3f2
+  font-family: 'Raleway';
+  background-color: #f9f3f2;
+  overflow-x: hidden;
 }
 
 .row {
@@ -24,6 +25,14 @@ section {
 
 /*NAVBAR*/
 
+
+.flexNav {
+  position: fixed;
+  width: 100%;
+  background-color: red;
+  z-index: 9999;
+}
+
 .mainNav {
   list-style: none;
   margin-top: 35px;
@@ -35,7 +44,7 @@ section {
 }
 
 .mainNav li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -63,15 +72,17 @@ section {
 /*HEADER CONTENT*/
 
 header {
-  /*height: 100vh;*/
+  height: 100vh;
+  /*margin-bottom: 50px;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/gabe-morocco.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  /*width: 100%;*/
 }
 
-img {
-  height: 250px;
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 40px;
+.heroSection {
+  padding-top: 100px;
 }
 
 h1 {
@@ -85,7 +96,8 @@ h1 {
 .subheader {
   font-size: 125%;
   text-align: center;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
+  margin: 40px 0;
   list-style: none;
 }
 
@@ -102,6 +114,7 @@ h1 {
 
 .description {
   line-height: 150%;
+  text-align: center;
 }
 
 
@@ -120,6 +133,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Oxygen Mono';
   text-align: center;
   font-size: 250%;
 }
@@ -172,7 +186,6 @@ h3 {
 
 .socialLinks li {
   display: inline-block;
-
 
 }
 
