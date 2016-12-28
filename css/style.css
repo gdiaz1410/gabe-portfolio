@@ -9,7 +9,6 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
   font-family: 'Raleway';
-  background-color: #f9f3f2;
   overflow-x: hidden;
 }
 
@@ -19,7 +18,7 @@ body {
 }
 
 section {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 
@@ -29,22 +28,23 @@ section {
 .flexNav {
   position: fixed;
   width: 100%;
-  background-color: red;
+  background-color: #daefef;
   z-index: 9999;
+  padding-bottom: 25px;
 }
 
 .mainNav {
   list-style: none;
-  margin-top: 35px;
+  margin-top: 20px;
   width: 100%;
   float: right;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
 .mainNav li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -66,6 +66,7 @@ section {
   display: none;
   text-decoration: none;
   float: right;
+  cursor: pointer;
 }
 
 
@@ -74,7 +75,7 @@ section {
 header {
   height: 100vh;
   /*margin-bottom: 50px;*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/gabe-morocco.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url(../images/gabe-morocco.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -82,7 +83,7 @@ header {
 }
 
 .heroSection {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 h1 {
@@ -120,6 +121,10 @@ h1 {
 
 /*PROJECTS*/
 
+.projectSection {
+  background-color: #f2ecea;
+}
+
 .col {
   padding: 1%;
 }
@@ -149,14 +154,17 @@ h3 {
   margin-top: 25px;
   text-align: center;
   bottom: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .projectLinks a {
   text-decoration: none;
   border: 1px solid #000;
   border-radius: 10px;
-  padding: 8px;
+  padding: 7px;
   top: 150%;
+  color: #000;
 }
 
 .projectLinks a:hover {
@@ -166,15 +174,24 @@ h3 {
 }
 
 .siteLink {
-
+  height: 55px;
 }
 
 .codeLink {
   margin-left: 15px;
+  height: 55px;
 }
 
 
 /*FOOTER*/
+
+footer {
+  background-color: #e5e3e3;
+}
+
+footer h2 {
+  margin-top: 20px;
+}
 
 .socialLinks {
   list-style: none;
