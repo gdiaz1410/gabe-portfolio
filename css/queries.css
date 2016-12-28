@@ -1,7 +1,7 @@
 /*BIG TABLET WIDTH SMALLER THAN 1140PX ROW*/
 @media only screen and (max-width: 1140px) {
 
-  
+  /*.mainNav { display: inline-block; }  */
 
 }
 
@@ -15,12 +15,17 @@
   }
 
   body {
-    /*padding: 0 20px;*/
+    /*margin: 0 20px;*/
     width: auto;
+  }
+
+  .description {
+    padding: 0 5%;
   }
 
   .projectLinks a {
     display: block;
+
   }
 
   .siteLink {
@@ -39,62 +44,22 @@
     width: auto;
   }
 
-  .project {
-    width: auto;
-  }
+  h1 { font-size: 200%; }
 
-  .projectLinks {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .siteLink {
-    margin-bottom:20px;
-  }
-
-  .project-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .socialLinks i {
-    padding: 0 30px;
-  }
-
-  .project img {
-    width: auto;
+  h2 {
+    font-size: 175%;
+    margin-top: 10px;
   }
 
   .mainNav {
     display: none;
   }
 
-  .mainNav.open {
+  .mainNav.open li{
     display: flex;
-  }
-
-  .toggleNav {
-    display: inline-block;
-    color: black;
-    font-size: 200%;
-  }
-
-
-}
-
-/* SMALL PHONES 0 TO 480PX*/
-@media only screen and (max-width: 480px) {
-  body {
-    /*padding: 0 20px;*/
-    width: auto;
-  }
-
-  .mainNav {
-    display: none;
-  }
-
-  .mainNav.open {
-    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    text-decoration: none;
   }
 
   .toggleNav {
@@ -107,6 +72,100 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 100%;
+  }
+
+  .description { font-size: 80%;}
+
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+  }
+
+  .projectLinks {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projectLinks a {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .projectDescription {
+    text-align: center;
+  }
+
+  /*.siteLink {
+    width: auto;
+  }*/
+
+
+}
+
+/* SMALL PHONES 0 TO 480PX*/
+@media only screen and (max-width: 480px) {
+  body {
+    /*padding: 0 20px;*/
+    width: auto;
+  }
+
+  h1 { font-size: 200%; }
+
+  h2 {
+    font-size: 175%;
+    margin-top: 10px;
+  }
+
+
+  .mainNav {
+    display: none;
+  }
+
+  .mainNav.open li{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+
+  .toggleNav {
+    display: inline-block;
+    color: black;
+    font-size: 200%;
+  }
+
+  .subheader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 100%;
+  }
+
+  .description { font-size: 80%;}
+
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+  }
+
+  .projectLinks {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projectLinks a {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .projectDescription {
+    text-align: center;
   }
 
   .siteLink {
