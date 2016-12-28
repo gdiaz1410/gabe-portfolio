@@ -1,15 +1,21 @@
 /*BIG TABLET WIDTH SMALLER THAN 1140PX ROW*/
 @media only screen and (max-width: 1140px) {
 
-
+  
 
 }
 
 /*SMALL TO LARGE TABLET FROM 768-1023*/
 @media only screen and (max-width: 1023px) {
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   body {
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: auto;
   }
 
@@ -29,7 +35,7 @@
 @media only screen and (max-width: 767px) {
 
   body {
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: auto;
   }
 
@@ -79,7 +85,7 @@
 /* SMALL PHONES 0 TO 480PX*/
 @media only screen and (max-width: 480px) {
   body {
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: auto;
   }
 

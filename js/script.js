@@ -1,12 +1,18 @@
 $(document).ready(function() {
 
-
-
-  // nav burger button
+  // nav burger button display items
   $(function() {
       $('.toggleNav').on('click',function() {
       $('.mainNav').toggleClass('open');
     });
+  });
+
+
+  // burger nav
+  $('.toggleNav').click(function() {
+    var nav = $('.mainNav');
+    nav.slideToggle(200);
+  })
   });
 
 
@@ -25,13 +31,8 @@ $(document).ready(function() {
     }
   });
 
-  $('.toggleNav').click(function() {
-    var nav = $('.mainNav');
 
-    nav.slideToggle(200);
-  })
-  });
-
+  // project images animation
   $('.projectFlex').waypoint(function(direction) {
     $('.projectFlex').addClass('animated fadeIn');
   }, {
@@ -39,10 +40,12 @@ $(document).ready(function() {
   });
 
 
-
-
-
-
+  // social icons bounce animation
+  $('.fa').waypoint(function(direction) {
+    $('.fa').addClass('animated bounce');
+  }, {
+    offset: '100%'
+  });
 
 
 });
