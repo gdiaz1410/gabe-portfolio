@@ -8,11 +8,11 @@ $(document).ready(function() {
   });
 
 
-  // burger nav
-  $('.toggleNav').click(function() {
-    var nav = $('.mainNav');
-    nav.slideToggle(200);
-  })
+  // burger nav slide down
+  // $('.toggleNav').click(function() {
+  //   var nav = $('.mainNav');
+  //   nav.slideToggle(150);
+  // })
   });
 
 
@@ -32,9 +32,16 @@ $(document).ready(function() {
   });
 
 
+  // header fadein animation
+  $('h1').waypoint(function(direction) {
+    $('h1').addClass('animated bounceIn');
+  }, {
+    offset: '100%'
+  });
+
   // project images animation
-  $('.projectFlex').waypoint(function(direction) {
-    $('.projectFlex').addClass('animated fadeIn');
+  $('.projectImage').waypoint(function(direction) {
+    $('.projectImage').addClass('animated zoomIn');
   }, {
     offset: '90%'
   });
@@ -42,7 +49,7 @@ $(document).ready(function() {
 
   // social icons bounce animation
   $('.fa').waypoint(function(direction) {
-    $('.fa').addClass('animated bounce');
+    $('.fa').addClass('animated zoomIn');
   }, {
     offset: '100%'
   });
