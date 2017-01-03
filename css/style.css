@@ -80,11 +80,10 @@ section {
 header {
   height: 100vh;
   /*margin-bottom: 50px;*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),url(../images/gabe-morocco.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),url(../images/gabe-morocco.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  /*width: 100%;*/
 }
 
 .heroSection {
@@ -102,7 +101,6 @@ h1 {
 .subheader {
   font-size: 125%;
   text-align: center;
-  /*margin-bottom: 30px;*/
   margin: 40px 0;
   list-style: none;
 }
@@ -179,12 +177,12 @@ h3 {
 }
 
 .siteLink {
-  height: 55px;
+  height: auto;
 }
 
 .codeLink {
   margin-left: 15px;
-  height: 55px;
+  height: auto;
 }
 
 
@@ -202,16 +200,12 @@ footer h2 {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 70px 150px;
+  margin: 25px 150px;
   font-size: 300%;
 }
 
 .socialLinks li {
   display: inline-block;
-}
-
-.socialLinks i {
-  color: #000;
 }
 
 .socialLinks .fa-linkedin-square {

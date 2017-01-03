@@ -32,13 +32,12 @@
     padding: 0 5%;
   }
 
-  .projectLinks a {
-    display: block;
-
+  .projectFlex {
+    margin: 0 20px;
   }
 
-  .siteLink {
-    /*margin-bottom: 20px;*/
+  .projectLinks a {
+    display: block;
   }
 
 
@@ -71,7 +70,6 @@
   .mainNav.open {
     display: flex;
     flex-direction: column;
-    padding-right: 15px;
     text-decoration: none;
   }
 
@@ -97,23 +95,6 @@
   }
 
   .description { font-size: 80%;}
-
-
-  /*.project {
-    display: flex;
-    flex-direction: column;
-    padding: 25px 25px;
-  }
-
-  .projectLinks a {
-    border: 1px solid black;
-    text-align: center;
-    padding: 5px;
-  }
-
-  .projectDescription {
-    text-align: center;
-  }*/
 
   .project {
     display: flex;
@@ -141,6 +122,16 @@
 
   .siteLink {
     width: auto;
+  }
+
+  .socialLinks {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socialLinks i {
+    padding: 0 15px;
+    font-size: 70%;
   }
 
 
@@ -172,8 +163,6 @@
   .mainNav.open {
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
-    padding-left: 15px;
     text-decoration: none;
   }
 

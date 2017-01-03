@@ -43,7 +43,7 @@ $(document).ready(function() {
   $('.projectImage').waypoint(function(direction) {
     $('.projectImage').addClass('animated zoomIn');
   }, {
-    offset: '90%'
+    offset: '100%'
   });
 
 
