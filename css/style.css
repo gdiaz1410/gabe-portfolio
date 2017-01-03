@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Raleway';
+  overflow-x: hidden;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+
+/*NAVBAR*/
+
+
+.flexNav {
+  position: fixed;
+  width: 100%;
+  background-color: #daefef;
+  z-index: 9999;
+  padding-bottom: 25px;
+}
+
+.mainNav {
+  list-style: none;
+  margin-top: 20px;
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#brand {
+  margin-right: auto;
+}
+
+.mainNav li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+  padding: 5px 0;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.mainNav li a:hover,
+.mainNav li a:active {
+  border-bottom: 2px solid #c10d0d;
+}
+
+.toggleNav {
+  display: none;
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+/*HEADER CONTENT*/
+
+header {
+  height: 100vh;
+  /*margin-bottom: 50px;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),url(../images/gabe-morocco.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.heroSection {
+  padding-top: 150px;
+}
+
+h1 {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 310%;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  font-size: 125%;
+  text-align: center;
+  margin: 40px 0;
+  list-style: none;
+}
+
+.subheader li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+  border-left: 1px solid #c10d0d;
+}
+
+.subheader li:first-child {
+  border-left: 0;
+}
+
+.description {
+  line-height: 150%;
+  text-align: center;
+}
+
+
+/*PROJECTS*/
+
+.projectSection {
+  background-color: #f2ecea;
+}
+
+.col {
+  padding: 1%;
+}
+
+.col img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+h2 {
+  font-family: 'Oxygen Mono';
+  text-align: center;
+  font-size: 250%;
+}
+
+h3 {
+  border-bottom: 1px solid #c10d0d;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.projectLinks {
+  margin-top: 25px;
+  text-align: center;
+  bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.projectLinks a {
+  text-decoration: none;
+  border: 1px solid #c10d0d;
+  border-radius: 10px;
+  padding: 12px;
+  top: 150%;
+  color: #000;
+}
+
+.projectLinks a:hover {
+  background-color: #636a77;
+  border: 1px solid #c10d0d;
+  color: #fff;
+}
+
+.siteLink {
+  height: auto;
+}
+
+.codeLink {
+  margin-left: 15px;
+  height: auto;
+}
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #e5e3e3;
+}
+
+footer h2 {
+  margin-top: 20px;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 150px;
+  font-size: 300%;
+}
+
+.socialLinks li {
+  display: inline-block;
+}
+
+.socialLinks .fa-linkedin-square {
+  color: #0077B5;
+}
+
+.socialLinks .fa-github {
+  color: #6e5494;
+}
+
+.socialLinks .fa-twitter {
+  color: #00aced;
+}
+
+.socialLinks .fa-envelope-o {
+  color: #dd4b39;
+}
